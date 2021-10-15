@@ -11,3 +11,8 @@ Coding exercises that come with pluralsight's Design Patterns with Python
 - Encapsulate algorithms
 - Several techniques available
 - Red flag: sequences of if/elif statements
+
+# 2 Observer pattern
+- Detach the concerns of subject and observer
+- Encapsulate what changes, i.e. the respective subjects and observers.
+- Difficulty: the observer has to explicitly detach from the subject. Can be fixed by using context managers
